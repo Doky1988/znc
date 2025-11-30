@@ -1,6 +1,14 @@
 # ⚡ ZNC – Telepítő, Frissítő és Eltávolító Scriptek  
 **Debian 13 | Systemd | Teljesen automatizált üzemeltetés**  
-*Készítette: Doky · 2025*
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Debian-13-red?style=for-the-badge&logo=debian" />
+  <img src="https://img.shields.io/badge/ZNC-Automated-blue?style=for-the-badge&logo=linux" />
+  <img src="https://img.shields.io/badge/Shell_Script-Bash-1f425f?style=for-the-badge&logo=gnu-bash" />
+  <img src="https://img.shields.io/badge/Systemd-Service-green?style=for-the-badge&logo=systemd" />
+  <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Created_by-Doky-blueviolet?style=for-the-badge" />
+</p>
 
 Ez a repository három professzionális, biztonságos és teljesen automatizált scriptet tartalmaz a ZNC IRC Bouncer kezelésére Debian 13 rendszeren.  
 A scriptek célja: stabil működés, egyszerű üzemeltetés, tiszta környezet.
@@ -27,9 +35,20 @@ A scriptek célja: stabil működés, egyszerű üzemeltetés, tiszta környezet
 - Kész állapotjelentés telepítés végén  
 
 ### Használat
-wget https://yourrepo/znc_install.sh  
-chmod +x znc_install.sh  
-sudo ./znc_install.sh
+
+1) Telepítőfájl létrehozása:
+   ```bash
+   nano znc_install.sh
+
+2) Másold bele az itt található **znc_install.sh** script tartalmát, majd mentsd el.
+
+3) Futási jog adása:
+   ```bash
+   chmod +x znc_install.sh
+
+4) Telepítés futtatása:
+   ```bash
+   ./znc_install.sh
 
 ### Service parancsok
 systemctl status znc  
@@ -52,9 +71,20 @@ systemctl stop znc
 - Kiírja a régi és az új verziót
 
 ### Használat
-wget https://yourrepo/znc_update.sh  
-chmod +x znc_update.sh  
-sudo ./znc_update.sh
+
+1) Telepítőfájl létrehozása:
+   ```bash
+   nano znc_update.sh
+
+2) Másold bele az itt található **znc_update.sh** script tartalmát, majd mentsd el.
+
+3) Futási jog adása:
+   ```bash
+   chmod +x znc_update.sh
+
+4) Telepítés futtatása:
+   ```bash
+   ./znc_update.sh
 
 ### Frissítendő csomagok
 - znc  
@@ -72,9 +102,20 @@ sudo ./znc_update.sh
 - Letakarít minden maradék könyvtárat (pl. /home/znc, /var/lib/znc)  
 
 ### Használat
-wget https://yourrepo/znc_uninstall.sh  
-chmod +x znc_uninstall.sh  
-sudo ./znc_uninstall.sh
+
+1) Telepítőfájl létrehozása:
+   ```bash
+   nano znc_uninstall.sh
+
+2) Másold bele az itt található **znc_uninstall.sh** script tartalmát, majd mentsd el.
+
+3) Futási jog adása:
+   ```bash
+   chmod +x znc_uninstall.sh
+
+4) Telepítés futtatása:
+   ```bash
+   ./znc_uninstall.sh
 
 ### Figyelmeztetés
 A script **teljes** eltávolítást végez.  
