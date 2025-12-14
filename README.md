@@ -55,7 +55,7 @@ Megjegyzés:
 Az IRC kapcsolat állapota nem kérdezhető le megbízhatóan CLI-ből.  
 A script ezt korrekt módon jelzi, és a helyes ellenőrzési útvonalat adja meg:
 
-WebAdmin → Traffic Info
+**WebAdmin → Traffic Info**
 
 ### 4️⃣ Eltávolítás
 - Leállítja és kikapcsolja a ZNC szolgáltatást  
