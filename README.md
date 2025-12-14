@@ -1,4 +1,4 @@
-# ZNC Installer – Debian 13
+# ZNC Telepítő – Debian 13
 
 ![Debian](https://img.shields.io/badge/Debian-13-red)
 ![ZNC](https://img.shields.io/badge/ZNC-Stable-blue)
